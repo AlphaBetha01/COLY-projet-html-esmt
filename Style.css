@@ -1,0 +1,81 @@
+/* Paramètres globaux*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* En-tête et Nav */
+header {
+    background-color: #2c3e50; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #18bc9c; 
+    text-decoration: underline;
+}
+
+/* Contenu principl */
+main {
+    max-width: 900px;
+    margin: 40px auto; 
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px; 
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #18bc9c;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
